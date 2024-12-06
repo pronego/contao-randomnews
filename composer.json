@@ -15,7 +15,9 @@
         {
             "name": "Heiko Unger"
         }
-    ],    "require": {
+    ],
+    "require": {
+        "php": "^8.0",
         "contao/core-bundle": "^5.2",
         "contao/news-bundle": "^5.2"
     },
