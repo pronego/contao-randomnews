@@ -1,0 +1,20 @@
+{% extends '@Contao/content_element/_base.html.twig' %}
+{% import '@ContaoCore/Image/Studio/_macros.html.twig' as studio %}
+
+{% block headline %}
+{% endblock %}
+
+{% block content %}
+    <div class="randomnews">
+        {% if headline %}<{{ hl|raw }}>{{ headline }}</{{ hl|raw }}>{% endif %}
+        {% if title %}{{ title }}{% endif %}
+        {% if teaser %}{{ teaser }}{% endif %}
+
+        {#
+        <?php $this->insert('image', $this->arrData); ?>
+        #}
+        {% if image %}
+            {{ studio.figure(image) }}
+        {% endif %}
+    </div>
+{% endblock %}

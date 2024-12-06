@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    pronego\RandomnewsBundle\Controller\FrontendModule\RandomnewsController:
+        arguments:
+            - '@contao.image.studio'

@@ -1,0 +1,46 @@
+{
+    "name": "pronego/contao-randomnews",
+    "type": "contao-bundle",
+    "description": "Auswahl zufälliger News aus wählbaren Newsarchiven",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Dr. Manuel Lamotte-Schubert",
+            "homepage": "https://www.pronego.com"
+        },
+        {
+            "name": "PRONEGO",
+            "homepage": "https://www.pronego.com"
+        },
+        {
+            "name": "Heiko Unger"
+        }
+    ],    "require": {
+        "contao/core-bundle": "^5.2",
+        "contao/news-bundle": "^5.2"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "extra": {
+        "contao-manager-plugin": "pronego\\RandomnewsBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "pronego\\RandomnewsBundle\\": "src/"
+        },
+        "classmap": [
+            "contao/"
+        ],
+        "exclude-from-classmap": [
+            "contao/config/",
+            "contao/dca/",
+            "contao/languages/",
+            "contao/templates/"
+        ]
+    }
+}

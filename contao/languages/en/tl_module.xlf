@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+<file>
+<body>
+    <!-- FIELDS -->
+    <trans-unit id="tl_module.randomnews_showtitle.0">
+        <target>Show News titel</target>
+    </trans-unit>
+    <trans-unit id="tl_module.randomnews_showtitle.1">
+        <target>Show the news title.</target>
+    </trans-unit>
+    <trans-unit id="tl_module.randomnews_showteaser.0">
+        <target>Show teaser text</target>
+    </trans-unit>
+    <trans-unit id="tl_module.randomnews_showteaser.1">
+        <target>Also indicates the teaser text.</target>
+    </trans-unit>
+    <trans-unit id="tl_module.randomnews_showimage.0">
+        <target>Show teaser image</target>
+    </trans-unit>
+    <trans-unit id="tl_module.randomnews_showimage.1">
+        <target>Also indicates the teaser image.</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,16 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('headline'); ?>
+<?php $this->endblock(); ?>
+
+<?php $this->block('content'); ?>
+    <div class="randomnews">
+        <?php if ($this->headline): ?><<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>><?php endif; ?>
+        <?php if ($this->title): ?><?php echo $this->title; ?><?php endif; ?>
+        <?php if ($this->teaser): ?><?php echo $this->teaser; ?><?php endif; ?>
+
+        <?php if ($this->addImage): ?>
+            <?php $this->insert('image', $this->arrData); ?>
+        <?php endif; ?>
+    </div>
+<?php $this->endblock(); ?>
