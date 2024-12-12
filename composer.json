@@ -1,7 +1,7 @@
 {
     "name": "pronego/contao-randomnews",
     "type": "contao-bundle",
-    "description": "Auswahl zufälliger News aus wählbaren Newsarchiven",
+    "description": "Auswahl zufälliger News aus wählbaren Newsarchiven.",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {

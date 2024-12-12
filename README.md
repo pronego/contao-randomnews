@@ -1,7 +1,7 @@
 # Random News / Zufallsnachricht
 
 ## Überblick
-Mit dieser Erweiterung kann man im Contao-Backend als Modul „Zufallsnachricht“ ausgewählen und
+Mit dieser Erweiterung kann man im Contao-Backend als Modul „Zufallsnachricht“ auswählen und
 zufällige Nachrichten aus auswählbaren Nachrichtenarchiven in verschiedenen Formaten anzeigen.
 
 Diese Erweiterung wurde ursprünglich von [Heiko Unger von Odenwerk](odenwerk@gmail.com)
@@ -12,7 +12,7 @@ von [Dr. Manuel Lamotte-Schubert/PRONEGO](https://www.pronego.com) übernommen u
 ## Installation
 Die Installation des Bundles erfolgt
 1. über den Contao-Manager. Hierfür einfach im Contao-Store auf Installieren klicken und
-    Anschluss die erforderlichen Datenbankänderungen durchführen.
+    im Anschluss die erforderlichen Datenbankänderungen durchführen.
 
 2. via Composer:
     ```
